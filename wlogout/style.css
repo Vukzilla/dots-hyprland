@@ -26,7 +26,7 @@ button:focus {
 
 button:hover,
 button:focus-visible {
-    background-color: rgba(80, 52, 52, 0.219); 
+    background-color: rgba(0, 0, 0, 0.486); 
     color: #ffffff;
     background-size: 70%;
     border-radius: 50px; 
