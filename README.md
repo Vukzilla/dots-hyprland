@@ -22,6 +22,6 @@
 > hyprshade python-pywal16 wlogout
 
 ### Required terminal commands:
->xdg-mime default org.gnome.Nautilus.desktop inode/directory
->systemctl --user enable --now hypridle.service
+>xdg-mime default org.gnome.Nautilus.desktop inode/directory <br>
+>systemctl --user enable --now hypridle.service <br>
 >chmod +x ~/.config/hypr/scripts/*
