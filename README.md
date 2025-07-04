@@ -1,5 +1,12 @@
 # dots-hyprland
 
+<img src=images/1.png>
+<hr>
+<img src=images/2.png>
+<hr>
+<img src=images/3.png>
+<hr>
+
 >##### Required pacman packages:
 >fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct sdl2 glfw hypridle swww yad pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock
 
