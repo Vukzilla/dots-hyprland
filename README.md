@@ -35,6 +35,7 @@
 
 <details>
 <summary><strong>Software used</strong></summary>
+<br>
 
 | Software | Purpose |
   | ------------- | ------------- |
@@ -48,8 +49,9 @@
 
 <details>
 <summary><strong>Installation</strong></summary>
+<br>
 
-```
+```bash
 git clone https://github.com/Vukzilla/dots-hyprland
 rm -rf dots-hyprland/images
 rm dots-hyprland/README.md
@@ -69,7 +71,7 @@ yay -S hyprshade python-pywal16 wlogout
 ```
 
 ### Required terminal commands:
-```
+```bash
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 systemctl --user enable --now hypridle.service
 chmod +x ~/.config/hypr/scripts/*
