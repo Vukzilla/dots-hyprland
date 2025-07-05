@@ -55,6 +55,7 @@
 git clone https://github.com/Vukzilla/dots-hyprland
 rm -rf dots-hyprland/images
 rm dots-hyprland/README.md
+rm -rf ~/.config/hypr
 mv dots-hyprland/* ~/.config
 rm -rf dots-hyprland/
 ```
@@ -62,7 +63,7 @@ rm -rf dots-hyprland/
 ### Required pacman packages:
 
 ```
-sudo pacman -S fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct sdl2 glfw hypridle swww yad pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock noto-fonts-emoji
+sudo pacman -S fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct sdl2 glfw hypridle swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock noto-fonts-emoji waybar
 ```
 
 ### Required AUR packages:
@@ -74,6 +75,7 @@ yay -S hyprshade python-pywal16 wlogout rofi-emoji
 ```bash
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 systemctl --user enable --now hypridle.service
+sudo systemctl enable bluetooth.service
 chmod +x ~/.config/hypr/scripts/*
 ```
 
