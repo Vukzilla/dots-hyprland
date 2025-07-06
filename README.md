@@ -51,15 +51,6 @@
 <summary><strong>Installation</strong></summary>
 <br>
 
-```bash
-git clone https://github.com/Vukzilla/dots-hyprland
-rm -rf dots-hyprland/images dots-hyprland/README.md
-cp -r ~/.config ~/.config-backup
-rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout
-mv dots-hyprland/* ~/.config
-rm -rf dots-hyprland/
-```
-
 ### Required pacman packages:
 
 ```
@@ -76,8 +67,20 @@ yay -S hyprshade python-pywal16 wlogout rofi-emoji
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 systemctl --user enable --now hypridle.service
 sudo systemctl enable bluetooth.service
-chmod +x ~/.config/hypr/scripts/*
 ```
+
+```bash
+git clone https://github.com/Vukzilla/dots-hyprland
+rm -rf dots-hyprland/images dots-hyprland/README.md
+cp -r ~/.config ~/.config-backup
+rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout
+mv dots-hyprland/* ~/.config
+rm -rf dots-hyprland/
+chmod +x ~/.config/hypr/scripts/*
+hyprctl reload
+```
+
+### ❗reload after install
 
 </details>
 
