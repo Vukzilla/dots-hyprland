@@ -54,7 +54,7 @@
 ### Required pacman packages:
 
 ```
-sudo pacman -S fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct sdl2 glfw hypridle hyprcursor swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk ttf-hack bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock noto-fonts-emoji waybar swaync fish materia-gtk-theme qt5-wayland qt6-wayland
+sudo pacman -S fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct alacritty sdl2 glfw hypridle hyprcursor swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk ttf-hack bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock noto-fonts-emoji waybar swaync fish materia-gtk-theme qt5-wayland qt6-wayland
 ```
 
 ### Required AUR packages:
