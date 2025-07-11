@@ -21,7 +21,7 @@
 <details>
 <summary><strong>Notable features</strong></summary>
 
-- #### 🎨 Terminal colors adapt to wallpaper *(on supported terminals)*
+- #### 🎨 Terminal colors adapt to wallpaper [Ctrl + Super + T] *(on supported terminals)*
 - #### 🎞️ Custom Hyprland animations
 - #### 📷 Screenshot and snipping tool
 - #### 😀 Emoji picker launched with rofi *(Ctrl + V to paste the emoji)*
