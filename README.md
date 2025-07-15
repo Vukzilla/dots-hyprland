@@ -86,10 +86,9 @@ hyprctl reload
 </details>
 
 <div align="center">
-    <h2>• screenshots •</h2>
+    <h2>• video preview •</h2>
     <h3></h3>
 </div>
 
-<img src=images/1.png>
-<img src=images/2.png>
-<img src=images/3.png>
+<video controls width="600" src="https://github.com/user-attachments/assets/ecf69348-1196-4b88-a625-bc2074184484"></video>
+
