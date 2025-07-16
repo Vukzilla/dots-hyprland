@@ -90,5 +90,5 @@ hyprctl reload
     <h3></h3>
 </div>
 
-<video controls width="600" src="https://github.com/user-attachments/assets/ecf69348-1196-4b88-a625-bc2074184484"></video>
+https://github.com/user-attachments/assets/d1fbf548-2491-4084-99cf-6a2a8bb4d440
 
