@@ -72,7 +72,7 @@ sudo systemctl enable bluetooth.service
 
 ```bash
 git clone https://github.com/Vukzilla/dots-hyprland
-rm -rf dots-hyprland/images dots-hyprland/README.md
+rm -rf dots-hyprland/README.md
 cp -r ~/.config ~/.config-backup
 rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout
 mv dots-hyprland/* ~/.config
