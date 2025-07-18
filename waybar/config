@@ -4,7 +4,7 @@
     "height": 35,
     "spacing": 5,
 
-    "modules-left": ["clock"],
+    "modules-left": ["clock", "hyprland/window"],
     "modules-center": ["hyprland/workspaces#kanji"],
     "modules-right": ["wireplumber", "battery", "custom/notifications", "idle_inhibitor", "network", "bluetooth", "tray", "custom/power"],
 
@@ -66,8 +66,6 @@
         }
     },
 
-
-
     "clock": {
         "format": "{:%A | %d/%m/%Y | %H:%M}",
         "on-click": "gnome-calendar",
@@ -118,6 +116,10 @@
     "tray": {
         "icon-size": 16,
         "spacing": 16
+    },
+
+    "hyprland/window": {
+        "format" : " {}"
     },
 
     "custom/notifications": {
