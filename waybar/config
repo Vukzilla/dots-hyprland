@@ -6,7 +6,7 @@
 
     "modules-left": ["clock", "hyprland/window"],
     "modules-center": ["hyprland/workspaces#kanji"],
-    "modules-right": ["wireplumber", "battery", "custom/notifications", "idle_inhibitor", "network", "bluetooth", "tray", "custom/power"],
+    "modules-right": ["tray", "wireplumber", "battery", "custom/notifications", "idle_inhibitor", "network", "bluetooth", "custom/mission_center", "custom/power"],
 
     "hyprland/workspaces": {
         "format": "<span size='medium'>{name}</span>",
@@ -73,7 +73,7 @@
     },
 
     "wireplumber": {
-        "format": "\udb81\udd7e  {volume}% |",
+        "format": " | \udb81\udd7e  {volume}% |",
         "max-volume": 200,
         "scroll-step": 5,
         "on-click": "pavucontrol"
@@ -93,7 +93,7 @@
 
     "network": {
         "format": "",
-        "format-ethernet": "\udb83\udc9d",
+        "format-ethernet": "\udb83\udc9d ",
         "format-wifi": "{icon}",
         "format-disconnected": "\udb83\udc9c",
         "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
@@ -104,7 +104,7 @@
     },
 
     "bluetooth": {
-        "format": "\udb80\udcaf",
+        "format": "\udb80\udcaf ",
         "format-disabled": "\udb80\udcb2",
         "format-connected": "\udb80\udcb1",
         "tooltip-format": "{controller_alias}\t{controller_address}",
@@ -119,23 +119,29 @@
     },
 
     "hyprland/window": {
-        "format" : " {}"
+        "format": "<span font='11'> {}</span>"
+    },
+
+    "custom/mission_center": {
+        "format": "\udb82\ude07 ",
+        "tooltip": false,
+        "on-click": "missioncenter"
     },
 
     "custom/notifications": {
-        "format": "\udb80\udc9a  ",
+        "format": "\udb80\udc9a ",
         "tooltip": false,
         "on-click": "swaync-client -t"
     },
 
     "custom/power": {
-        "format": "⏻ ",
+        "format": "| ⏻ ",
         "on-click": "wlogout",
         "tooltip": false
     },
 
     "idle_inhibitor": {
-        "format": "{icon}",
+        "format": "{icon} ",
         "format-icons": {
             "activated": "\udb80\udd76",
             "deactivated": "\udb83\udfaa"
