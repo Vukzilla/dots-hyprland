@@ -89,4 +89,4 @@ hyprctl reload
     <h3></h3>
 </div>
 
-https://github.com/user-attachments/assets/194abe63-ff3c-4610-8112-a889b8aab4ba
+https://github.com/user-attachments/assets/4efb01c8-c520-4690-83a9-5e478bf6100c
