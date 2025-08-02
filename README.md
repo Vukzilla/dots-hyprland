@@ -21,11 +21,11 @@
 <details>
 <summary><strong>Notable features</strong></summary>
 
-- #### 🎨 Terminal colors adapt to wallpaper [Ctrl + Super + T] *(on supported terminals)*
-- #### 🎞️ Custom Hyprland animations
-- #### 📷 Screenshot and snipping tool
-- #### 😀 Emoji picker launched with rofi *(Ctrl + V to paste the emoji)*
-- #### 🛠️ GUI settings for:
+- #### Terminal colors adapt to wallpaper [Ctrl + Super + T] *(on supported terminals)*
+- #### Custom Hyprland animations
+- #### Screenshot and snipping tool
+- #### Emoji picker launched with rofi *(Ctrl + V to paste the emoji)*
+- #### GUI settings for:
   - Audio  
   - Bluetooth  
   - Internet  
@@ -89,5 +89,4 @@ hyprctl reload
     <h3></h3>
 </div>
 
-https://github.com/user-attachments/assets/d1fbf548-2491-4084-99cf-6a2a8bb4d440
-
+https://github.com/user-attachments/assets/194abe63-ff3c-4610-8112-a889b8aab4ba
