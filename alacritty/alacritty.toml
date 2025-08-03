@@ -24,33 +24,6 @@ blink_timeout = 0
 [mouse]
 hide_when_typing = true
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [colors.primary]
 background = "#101115"
 foreground = "#c3c3c4"
@@ -112,4 +85,5 @@ blue = "#7389A9"
 magenta = "#5264A3"
 cyan = "#E8CD9D"
 white = "#5a616e"
+
 
