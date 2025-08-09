@@ -119,7 +119,8 @@
     },
 
     "hyprland/window": {
-        "format": "<span font='11'> {}</span>"
+        "format": "<span font='11'> {}</span>",
+        "tooltip-format": "{}"
     },
 
     "custom/mission_center": {
