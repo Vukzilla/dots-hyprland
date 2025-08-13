@@ -1,0 +1,75 @@
+window {
+    font-family: Fira Code Medium;
+    font-size: 16pt;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+button {
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    background-color: rgba(0, 0, 0, 0.185);
+    border-radius: 50px;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+}
+
+button:hover,
+button:focus-visible {
+    background-color: rgba(0, 0, 0, 0.486); 
+    color: #ffffff;
+    background-size: 70%;
+    border-radius: 50px; 
+}
+
+button span {
+    font-size: 1.2em;
+}
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+#lock:hover {
+    background-image: image(url("./icons/lock-hover.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}
+#logout:hover {
+    background-image: image(url("./icons/logout-hover.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/sleep.png"));
+}
+#suspend:hover {
+    background-image: image(url("./icons/sleep-hover.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+#shutdown:hover {
+    background-image: image(url("./icons/power-hover.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}
+#reboot:hover {
+    background-image: image(url("./icons/restart-hover.png"));
+}
+
+#hibernate {
+    background-image: image(url("./icons/hibernate.png"));
+}
+#hibernate:hover {
+    background-image: image(url("./icons/hibernate-hover.png"));
+}
