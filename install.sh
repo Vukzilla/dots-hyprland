@@ -17,15 +17,16 @@ xdg-mime default org.gnome.Nautilus.desktop inode/directory
 systemctl --user enable --now hypridle.service
 sudo systemctl enable bluetooth.service
 
-git clone --depth 1 https://github.com/Vukzilla/dots-hyprland
-
-rm -rf dots-hyprland/README.md
+rm -f README.md
+rm -f LICENSE
 
 sudo cp -r ~/.config ~/.config-backup
 sudo chown -R $USER:$(id -gn $USER) ~/.config-backup
 
 rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout ~/.config/neofetch
-mv dots-hyprland/* ~/.config
+shopt -s dotglob
+mv ./* ~/.config
+shopt -u dotglob
 rm -rf ../dots-hyprland/
 chmod +x ~/.config/hypr/scripts/*
 
