@@ -6,8 +6,8 @@
 
 <div align="center"> 
 
-![](https://img.shields.io/github/last-commit/Vukzilla/dots-hyprland?&style=for-the-badge&color=FFB1C8&logoColor=D9E0EE&labelColor=292324)
-![](https://img.shields.io/github/stars/Vukzilla/dots-hyprland?style=for-the-badge&logo=andela&color=FFB686&logoColor=D9E0EE&labelColor=292324)
+![](https://img.shields.io/github/last-commit/Vukzilla/dots-hyprland?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/Vukzilla/dots-hyprland?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
 
 </a>
 
@@ -64,4 +64,4 @@
     <h3></h3>
 </div>
 
-https://github.com/user-attachments/assets/3a29137c-8c36-4f13-8dcd-f6468f7003e5
+https://github.com/user-attachments/assets/be5434b8-88a6-43b4-8ef0-141c47d7aeb5
