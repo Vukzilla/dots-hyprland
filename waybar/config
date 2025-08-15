@@ -95,7 +95,7 @@
     "network": {
         "format": "",
         "format-ethernet": "\udb83\udc9d ",
-        "format-wifi": "{icon} ",
+        "format-wifi": "{icon}",
         "format-disconnected": "\udb83\udc9c ",
         "format-icons": ["\udb82\udd2f ", "\udb82\udd1f ", "\udb82\udd22 ", "\udb82\udd25 ", "\udb82\udd28 "],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
