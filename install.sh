@@ -9,9 +9,9 @@ else
   exit 1
 fi
 
-sudo pacman -S --needed hyprland mission-center fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct alacritty exa sdl2 glfw hypridle hyprcursor swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk ttf-hack bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock noto-fonts-emoji waybar swaync fish materia-gtk-theme qt5-wayland qt6-wayland
+sudo pacman -S --needed hyprland mission-center fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct alacritty exa sdl2 glfw hypridle hyprcursor swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk ttf-hack bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard gnome-calendar hyprpicker hyprlock noto-fonts-emoji waybar swaync fish materia-gtk-theme qt5-wayland qt6-wayland fastfetch
 
-$PKG_MGR -S --needed hyprshade python-pywal16 wlogout rofi-emoji neofetch
+$PKG_MGR -S --needed hyprshade python-pywal16 wlogout rofi-emoji
 
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 systemctl --user enable --now hypridle.service
@@ -23,7 +23,7 @@ rm -f LICENSE
 sudo cp -r ~/.config ~/.config-backup
 sudo chown -R $USER:$(id -gn $USER) ~/.config-backup
 
-rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout ~/.config/neofetch
+rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout ~/.config/fastfetch
 shopt -s dotglob
 mv ./* ~/.config
 shopt -u dotglob
