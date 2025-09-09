@@ -1,0 +1,27 @@
+window {
+    font: 16px "JetBrainsMono Nerd Font";
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(10, 10, 10);
+}
+
+#input {
+    background-color: rgb(0, 0, 0);
+}
+
+#entry {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 0;
+}
+
+#entry:selected {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#text {
+    padding: 2px 2px 2px 16px;
+    border: 0px;
+}
