@@ -23,6 +23,8 @@ rm -f LICENSE
 sudo cp -r ~/.config ~/.config-backup
 sudo chown -R $USER:$(id -gn $USER) ~/.config-backup
 
+sudo mv Future-dark-cursors /usr/share/icons/
+
 rm -rf ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/wofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout ~/.config/fastfetch
 shopt -s dotglob
 mv ./* ~/.config
@@ -31,7 +33,6 @@ rm -rf ../dots-hyprland/
 chmod +x ~/.config/hypr/scripts/*
 
 hyprctl reload
-hyprshade on vibrance
 
 if pgrep waybar >/dev/null; then
   pkill waybar
