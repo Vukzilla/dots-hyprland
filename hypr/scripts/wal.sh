@@ -9,8 +9,8 @@ ALACRITTY_CONFIG="$HOME/.config/alacritty/alacritty.toml"
 BACKUP="$ALACRITTY_CONFIG.bak"
 
 # Pick a wallpaper using yad
-FILE=$(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' \) | \
-  yad --list --column="Wallpapers" --image --preview --file --width=1100 --height=800 --title="Pick a Wallpaper")
+FILE=$(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' \) |
+  yad --list --column="Wallpapers" --image --preview --file --width=900 --height=700 --title="Pick a Wallpaper")
 
 if [[ -z "$FILE" ]]; then
   echo "No wallpaper selected. Exiting."
@@ -46,9 +46,9 @@ awk '
   /^\[colors/ {skip=1; next}
   /^\[/ && skip==1 {skip=0}
   skip==0 {print}
-' "$ALACRITTY_CONFIG" > "$ALACRITTY_CONFIG.tmp"
+' "$ALACRITTY_CONFIG" >"$ALACRITTY_CONFIG.tmp"
 
-echo -e "\n" >> "$ALACRITTY_CONFIG.tmp"
-cat "$WAL_COLORS" >> "$ALACRITTY_CONFIG.tmp"
+echo -e "\n" >>"$ALACRITTY_CONFIG.tmp"
+cat "$WAL_COLORS" >>"$ALACRITTY_CONFIG.tmp"
 
 mv "$ALACRITTY_CONFIG.tmp" "$ALACRITTY_CONFIG"
