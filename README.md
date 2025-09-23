@@ -24,11 +24,10 @@
 - #### Alacritty colors adapt to wallpaper
 - #### Custom Hyprland animations
 - #### Screenshot and snipping tool
-- #### Emoji picker launched with rofi `(Ctrl + V to paste the emoji)`
+- #### Emoji picker launched with emote `(Ctrl + V to paste the emoji)`
 - #### GUI settings for:
   - Audio
   - Bluetooth
-  - Internet
   - Calendar
   - Task manager
 
