@@ -6,7 +6,7 @@
 
     "modules-left": ["clock", "hyprland/window"],
     "modules-center": ["hyprland/workspaces#kanji"],
-    "modules-right": ["tray", "wireplumber", "battery", "custom/notifications", "idle_inhibitor", "network", "bluetooth", "custom/mission_center", "custom/power"],
+    "modules-right": ["tray", "wireplumber", "battery", "network", "idle_inhibitor"],
 
     "hyprland/workspaces": {
         "format": "<span size='medium'>{name}</span>",
@@ -67,9 +67,27 @@
     },
 
     "clock": {
-        "format": "{:%A | %d/%m/%Y | %H:%M}",
-        "on-click": "gnome-calendar",
-        "tooltip": false
+        "locale": "ja_JP.UTF-8",
+        "format": "{:%m月%d日 %H:%M}",
+        "tooltip-format": "<span size='9pt' font='WenQuanYi Zen Hei Mono'>{calendar}</span>",
+        "calendar": {
+            "mode": "month",
+            "mode-mon-col": 3,
+            "weeks-pos": "left",
+            "firstweekday": 1,
+            "format": {
+                "weekdays": "<span color='#bfff00'><b>{}</b></span>",
+                "months":   "<span color='#ffffff'><b>{}</b></span>",
+                "days":     "<span color='#ffffff'><b>{}</b></span>",
+                "weeks":    "<span color='#00eeff'><b>W{}</b></span>",
+                "today":    "<span color='#ff0099'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions":  {
+            "on-click-right": "mode",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
     },
 
     "wireplumber": {
@@ -99,7 +117,7 @@
         "format-disconnected": "\udb83\udc9c ",
         "format-icons": ["\udb82\udd2f ", "\udb82\udd1f ", "\udb82\udd22 ", "\udb82\udd25 ", "\udb82\udd28 "],
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-ethernet": "{ipaddr}",
         "tooltip-format-disconnected": "Disconnected",
         "on-click": "alacritty -e nmtui"
     },
@@ -137,7 +155,7 @@
     },
 
     "custom/power": {
-        "format": "| ⏻  ",
+        "format": "| \u23fb  ",
         "on-click": "wlogout",
         "tooltip": false
     },
@@ -148,6 +166,5 @@
             "activated": "\udb80\udd76",
             "deactivated": "\udb83\udfaa"
         },
-        "on-click": "~/.config/hypr/toggle-hypridle.sh"
     }
 }
