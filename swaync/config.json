@@ -73,7 +73,7 @@
         },
         {
           "label": "⏻",
-          "command": "wlogout & swaync-client -t -sw"
+          "command": "wlogout"
         }
       ]
     }
