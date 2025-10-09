@@ -13,25 +13,7 @@
 
 </div>
 
-<div align="center">
-    <h2>• overview •</h2>
-    <h3></h3>
-</div>
-
-<details>
-<summary><strong>Notable features</strong></summary>
-
-- #### Alacritty colors adapt to wallpaper
-- #### Custom Hyprland animations
-- #### Screenshot and snipping tool
-- #### Emoji picker launched with emote `(Ctrl + V to paste the emoji)`
-- #### GUI settings for:
-  - Audio
-  - Bluetooth
-  - Calendar
-  - Task manager
-
-</details>
+https://github.com/user-attachments/assets/655c82c6-b781-4fa3-be79-f450757c4a7c
 
 <details>
 <summary><strong>Installation</strong></summary><br>
@@ -57,10 +39,3 @@
     ./install.sh
 
 </details>
-
-<div align="center">
-    <h2>• video preview •</h2>
-    <h3></h3>
-</div>
-
-https://github.com/user-attachments/assets/be5434b8-88a6-43b4-8ef0-141c47d7aeb5
