@@ -58,22 +58,22 @@
     },
     "buttons-grid": {
       "buttons-per-row": 4,
-      "actions": [
+    "actions": [
         {
           "label": "󰂯",
-          "command": "blueman-manager & swaync-client -t"
+          "command": "setsid blueman-manager >/dev/null 2>&1 & swaync-client -t"
         },
         {
           "label": "",
-          "command": "guvcview & swaync-client -t"
+          "command": "setsid guvcview >/dev/null 2>&1 & swaync-client -t"
         },
         {
           "label": "󰨇",
-          "command": "missioncenter & swaync-client -t"
+          "command": "setsid missioncenter >/dev/null 2>&1 & swaync-client -t"
         },
         {
           "label": "⏻",
-          "command": "wlogout & swaync-client -t"
+          "command": "setsid wlogout >/dev/null 2>&1 & swaync-client -t"
         }
       ]
     }
