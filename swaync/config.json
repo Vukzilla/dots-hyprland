@@ -61,19 +61,19 @@
       "actions": [
         {
           "label": "󰂯",
-          "command": "blueman-manager & swaync-client -cp"
+          "command": "blueman-manager & swaync-client -t"
         },
         {
           "label": "",
-          "command": "guvcview & swaync-client -cp"
+          "command": "guvcview & swaync-client -t"
         },
         {
           "label": "󰨇",
-          "command": "missioncenter & swaync-client -cp"
+          "command": "missioncenter & swaync-client -t"
         },
         {
           "label": "⏻",
-          "command": "wlogout & swaync-client -cp"
+          "command": "wlogout & swaync-client -t"
         }
       ]
     }
