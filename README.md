@@ -16,7 +16,7 @@
 https://github.com/user-attachments/assets/655c82c6-b781-4fa3-be79-f450757c4a7c
 
 <details>
-<summary><strong>Installation</strong></summary><br>
+<summary><strong>Installation (Arch Linux)</strong></summary><br>
 
 **Requirements:**  
 - `yay` or `paru` (AUR helper)
