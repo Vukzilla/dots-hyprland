@@ -12,9 +12,9 @@ fi
 sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
 sudo locale-gen
 
-sudo pacman -S --needed hyprland mission-center fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct alacritty exa sdl2 glfw hypridle hyprcursor swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk ttf-hack bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard hyprpicker hyprlock noto-fonts-emoji waybar swaync fish materia-gtk-theme qt5-wayland qt6-wayland fastfetch polkit-gnome wofi file-roller gvfs-mtp hyprshot wqy-zenhei guvcview xorg-xhost python-pywal
+sudo pacman -S --needed hyprland mission-center fcitx5 fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-skk qt6ct qt5ct alacritty exa sdl2 glfw hypridle hyprcursor swww yad pipewire pipewire-pulse wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland gtk3 fcitx5-configtool ttf-jetbrains-mono-nerd noto-fonts-cjk ttf-hack bluez bluez-utils blueman pavucontrol networkmanager network-manager-applet nautilus grim slurp jq wl-clipboard hyprpicker hyprlock noto-fonts-emoji waybar swaync fish materia-gtk-theme qt5-wayland qt6-wayland fastfetch polkit-gnome wofi file-roller gvfs-mtp hyprshot wqy-zenhei guvcview xorg-xhost zenity
 
-$PKG_MGR -S --needed hyprshade wlogout emote
+$PKG_MGR -S --needed hyprshade wlogout emote python-pywal16
 
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 xhost +SI:localuser:root
