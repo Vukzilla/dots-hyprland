@@ -1,3 +1,5 @@
+general.import = ["~/.cache/wal/colors-alacritty.toml"]
+
 [window]
 opacity = 1
 blur = false
